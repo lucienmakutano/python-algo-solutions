@@ -24,11 +24,3 @@ def binary_sum(bin1, bin2):
     
     return sum
 
-
-if __name__ == "__main__":
-    print binary_sum("100", "1") # 101
-    print binary_sum("11", "1") # 100
-    print binary_sum("1", "0") # 1
-    print binary_sum("101101", "11001") # 1000110 
-    print binary_sum("1001", "110110") # 111111
-
